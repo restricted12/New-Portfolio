@@ -62,7 +62,10 @@ const StatsAndSkills = () => {
       <section id="skills" className="skills section light-background">
         <div className="container section-title" data-aos="fade-up">
           <h2>Skills</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <p>
+  A passionate developer equipped with a diverse set of technical skills, ready to take on challenges and deliver high-quality solutions through continuous learning and hands-on experience.
+</p>
+
         </div>
 
         <div className="container" data-aos="fade-up" data-aos-delay="100">

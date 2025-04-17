@@ -32,7 +32,10 @@ const ContactSection = () => {
     <section id="contact" className="contact section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>
+  Feel free to reach out for collaboration, project inquiries, or just to connect. I'm always open to discussing new ideas and opportunities in tech and development.
+</p>
+
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -43,7 +46,7 @@ const ContactSection = () => {
                 <i className="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Kombolcha, Addis Abeba, Ethiopia</p>
                 </div>
               </div>
 
@@ -51,7 +54,7 @@ const ContactSection = () => {
                 <i className="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
+                  <p>+251 964484087</p>
                 </div>
               </div>
 
@@ -59,7 +62,7 @@ const ContactSection = () => {
                 <i className="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Us</h3>
-                  <p>info@example.com</p>
+                  <p>ezepayooner@gmail.com</p>
                 </div>
               </div>
 

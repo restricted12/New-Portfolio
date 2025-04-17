@@ -28,13 +28,13 @@ const About = () => {
         <div className="row gy-4 justify-content-center">
           <div className="col-lg-4">
             <img
-              src={myprofile}
+              src='../../../assets/img/portfolio/image.png'
               className="img-fluid"
               alt="My Profile"
             />
           </div>
           <div className="col-lg-8 content">
-            <h2>UI/UX Designer &amp; Web Developer.</h2>
+            <h2>MERN stack Developer &amp; Web Developer.</h2>
             <p className="fst-italic py-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua.
@@ -44,19 +44,19 @@ const About = () => {
                 <ul>
                   <li>
                     <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Birthday:</strong> <span>1 May 1995</span>
+                    <strong>Birthday:</strong> <span>25 May 2004</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Website:</strong> <span>www.example.com</span>
+                    <strong>Website:</strong> <span>www.ezedin75.netlify.app</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Phone:</strong> <span>+123 456 7890</span>
+                    <strong>Phone:</strong> <span>+251 964 48 4087</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>City:</strong> <span>New York, USA</span>
+                    <strong>City:</strong> <span>AddisAbeba, Ethiopia</span>
                   </li>
                 </ul>
               </div>
@@ -64,15 +64,15 @@ const About = () => {
                 <ul>
                   <li>
                     <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Age:</strong> <span>30</span>
+                    <strong>Age:</strong> <span>20</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Degree:</strong> <span>Master</span>
+                    <strong>Degree:</strong> <span>Bachelor</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{' '}
-                    <strong>Email:</strong> <span>email@example.com</span>
+                    <strong>Email:</strong> <span>ezepayooner@gmail.com</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{' '}

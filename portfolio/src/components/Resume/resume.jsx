@@ -3,80 +3,90 @@ import React from 'react';
 const Resume = () => {
   return (
     <main className="main">
-    <section id="resume" className="resume section">
-
-      {/* Section Title */}
-      <div className="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>
-          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
-          Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-          Quia fugiat sit in iste officiis commodi quidem hic quas.
-        </p>
-      </div>
-
-      <div className="container">
-        <div className="row">
-
-          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 className="resume-title">Sumary</h3>
-            <div className="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127, Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div>
-
-            <h3 className="resume-title">Education</h3>
-            <div className="resume-item">
-              <h4>Master of Fine Arts & Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit.</p>
-            </div>
-
-            <div className="resume-item">
-              <h4>Bachelor of Fine Arts & Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis.</p>
-            </div>
-          </div>
-
-          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 className="resume-title">Professional Experience</h3>
-            <div className="resume-item">
-              <h4>Senior Graphic Design Specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY</em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of graphic communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team</li>
-                <li>Supervise the assessment of all graphic materials</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div>
-
-            <div className="resume-item">
-              <h4>Graphic Design Specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed marketing programs (logos, brochures, infographics, presentations, advertisements)</li>
-                <li>Managed up to 5 projects simultaneously under pressure</li>
-                <li>Consulted with clients on design strategies</li>
-                <li>Created 4+ design presentations monthly</li>
-              </ul>
-            </div>
-          </div>
-
+      <section id="resume" className="resume section">
+        {/* Section Title */}
+        <div className="container section-title" data-aos="fade-up">
+          <h2>Resume</h2>
+          <p>
+          Aspiring full-stack developer with hands-on experience in frontend and backend
+    technologies including HTML, CSS, JavaScript, React, Node.js, Express, MySQL, and
+    Python. Known for building real-world projects like a food ordering app, movie database bot, 
+    Netflix clone, Amazon clone, Garage Management System, and the Evangadi Forum platform. 
+    Enthusiastic about solving problems and collaborating on tech solutions.
+    Currently a student in the Evangadi Fullstack Web App Development program, sharpening practical
+    skills through structured, industry-relevant training.
+          </p>
         </div>
-      </div>
 
-    </section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 className="resume-title">Summary</h3>
+              <div className="resume-item pb-0">
+                <h4>Ezedin Abdela</h4>
+                <p>
+                  <em>
+                    Aspiring full-stack developer with hands-on experience in frontend and backend
+                    technologies including HTML, CSS, JavaScript, React, Node.js, Express, MySQL, and
+                    Python. Known for building real-world projects like a food ordering app, movie database bot, 
+                    and web scraping tools. Enthusiastic about solving problems and collaborating on tech solutions.
+                  </em>
+                </p>
+                <ul>
+                  <li>Addis Abeba, Ethiopia</li>
+                  <li>+251964484087</li>
+                  <li>ezepayooner@gmail.com</li>
+                </ul>
+              </div>
+
+              <h3 className="resume-title">Education</h3>
+              <div className="resume-item">
+                <h4>Bachelor of Science in Computer Science</h4>
+                <h5>2022 - 2027 (Expected)</h5>
+                <p><em>Wollo University, Kombolcha, Ethiopia</em></p>
+                <p>
+                  Currently pursuing a degree in Computer Science, actively learning software engineering
+                  principles, data structures, algorithms, and building tech solutions for real-world problems.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <h3 className="resume-title">Projects & Experience</h3>
+
+              <div className="resume-item">
+                <h4>Fullstack Food Ordering Website</h4>
+                <h5>2025</h5>
+                <p><em>Personal Project</em></p>
+                <ul>
+                  <li>Built a complete food ordering app with user authentication and order management</li>
+                  <li>Used React for frontend, Node.js/Express for backend, and MySQL for database</li>
+                  <li>Handled both admin and customer views with CRUD functionality</li>
+                </ul>
+              </div>
+              <div className="resume-item">
+                <h4>Web Scraping & Data Visualization</h4>
+                <h5>2024</h5>
+                <p><em>Personal Projects</em></p>
+                <ul>
+                  <li>Used BeautifulSoup and Selenium to scrape eBay and other platforms</li>
+                  <li>Visualized scraped data with Matplotlib and Seaborn in Python</li>
+                  <li>Analyzed trends and pricing patterns</li>
+                </ul>
+              </div>
+              <div className="resume-item">
+                <h4>Tech Skills & Interests</h4>
+                <ul>
+                  <li>Languages: Python, JavaScript, SQL</li>
+                  <li>Frameworks: React, Node.js, Express</li>
+                  <li>Tools: MySQL, Git, VS Code, Postman, BeautifulSoup, Matplotlib</li>
+                  <li>Other:Backend APIs, Responsive Design, Web Security Basics</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 };
