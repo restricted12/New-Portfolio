@@ -2,7 +2,7 @@ import React from 'react';
 // import 'aos/dist/aos.css'; // if you're using AOS
 // import AOS from 'aos';
 import { useEffect } from 'react';
-import myprofile from '../../../assets/img/main/my-profile-img.jpg'
+import newhero from '../../assets/img/portfolio/image.png'
 
 
 
@@ -28,7 +28,7 @@ const About = () => {
         <div className="row gy-4 justify-content-center">
           <div className="col-lg-4">
             <img
-              src='../../../assets/img/portfolio/image.png'
+              src={newhero}
               className="img-fluid"
               alt="My Profile"
             />

@@ -1,7 +1,7 @@
 import React from 'react';
 // import './Header.css'; // Add this for your custom styles
-import profileImg from '../../../assets/img/main/my-profile-img.jpg';
-import newhero from '../../../assets/img/main/hero-bg.jpg' 
+import profileImg from '../../assets/img/main/my-profile-img.jpg';
+import newhero from '../../assets/img/portfolio/image.png' 
 
 const Header = () => {
     return (
@@ -32,7 +32,7 @@ const Header = () => {
           <i className="header-toggle d-xl-none bi bi-list"></i>
   
           <div className="profile-img">
-            <img src='../../../assets/img/portfolio/image.png' alt="Profile" className="img-fluid rounded-circle" />
+            <img src={newhero} alt="Profile" className="img-fluid rounded-circle" />
           </div>
   
           <a href="index.html" className="logo d-flex align-items-center justify-content-center">
